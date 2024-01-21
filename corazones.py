@@ -3,6 +3,7 @@ import pyperclip as pyc
 import time
 
 emojis='🌸💖🌺😻🌹😍🌻🥰🌷❤️'
+emojis2='🖕😡🥵🖕🤡💩🤬🖕🤢🤡'
 
 def dibujar_corazon(e):
     c = [
