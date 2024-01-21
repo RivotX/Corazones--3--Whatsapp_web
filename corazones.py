@@ -3,7 +3,7 @@ import pyperclip as pyc
 import time
 
 emojis='🌸💖🌺😻🌹😍🌻🥰🌷❤️'
-emojis2='🖕😡🥵🖕🤡💩🤬🖕🤢🤡'
+emojis2='🖕😡🖕🤡🥵💩🖕🤬🤢🤡'
 
 def dibujar_corazon(e):
     c = [
@@ -34,6 +34,6 @@ mensajes = int(input('Número de mensajes: '))
 time.sleep(4)
 
 for i in range(mensajes):
-    dibujar_corazon(emojis[i%10])
+    dibujar_corazon(emojis2[i%10])
     pg.hotkey('ctrl', 'v')
     pg.press('enter')
