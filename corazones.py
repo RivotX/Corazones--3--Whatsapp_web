@@ -30,7 +30,7 @@ def dibujar_corazon(e):
 
 
 mensajes = int(input('Número de mensajes: '))
-time.sleep(3)
+time.sleep(4)
 
 for i in range(mensajes):
     dibujar_corazon(emojis[i%10])
